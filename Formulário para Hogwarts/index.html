@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset = "UTF-8">
+    <title>Hogwarts Legacy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Associação Internacional de Hogwarts</header>
+    <main>
+        <aside><img class="logo" src="hogwarts_logo.png" alt="Logo de Hogwarts" >
+            <hr>
+           <p>Hogwarts é a lendária Escola de Magia e Bruxaria, situada nas terras altas da Escócia, conhecida por formar bruxos e bruxas desde o século X. Fundada pelos quatro grandes magos Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw e Salazar Slytherin, a escola se tornou um dos pilares do mundo mágico, preservando tradições antigas enquanto prepara novas gerações para dominar a arte da magia com responsabilidade e coragem. Entre corredores encantados, escadas que mudam de lugar e segredos escondidos em cada torre, Hogwarts é mais do que uma escola — é um lar para aqueles que descobrem seu verdadeiro potencial mágico. Seja bem-vindo ao formulário de inscrição de Hogwarts, o primeiro passo para quem deseja fazer parte dessa história e viver uma jornada inesquecível no mundo da magia.</p>
+        </aside>
+        <section>
+            <form action="get"> 
+                <div class="nome">
+                    <div class="field">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="field">
+                        <label for="surname">Sobrenome:</label>
+                        <input type="text" id="surname" name="surname" required>
+                    </div>
+                </div>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="birthdate">Data de Nascimento:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br>
+
+                <div class="house-selection">
+                    <p>Selecione sua Casa:</p>
+                    <label class="house-option">
+                        <input type="radio" name="house" value="gryffindor" required>
+                        <img src="grifinoria.webp" alt="Grifinória" class="house-logo"> Grifinória
+                    </label>
+                    <label class="house-option">
+                        <input type="radio" name="house" value="hufflepuff" required>
+                        <img src="lufalufa.webp" alt="Lufa-Lufa" class="house-logo"> Lufa-Lufa
+                    </label>
+                    <label class="house-option">
+                        <input type="radio" name="house" value="ravenclaw" required>
+                        <img src="corvinal.webp" alt="Corvinal" class="house-logo"> Corvinal
+                    </label>
+                    <label class="house-option">
+                        <input type="radio" name="house" value="slytherin" required>
+                        <img src="sonserina.webp" alt="Sonserina" class="house-logo"> Sonserina
+                    </label>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
